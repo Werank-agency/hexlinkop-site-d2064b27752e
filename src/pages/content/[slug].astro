@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import De055 from '../../components/views/De055.tsx';
+import C736a from '../../components/views/C736a.tsx';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map(article => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await article.render();
+const { data } = article;
+---
+
+<Layout 
+  title={data.title} 
+  description={data.excerpt}
+  ogImage={data.coverImage}
+  ogTitle={data.title}
+  ogDescription={data.excerpt}
+>
+  <De055 client:load currentPath="/content" transition:persist="nav" />
+  
+  <article class="container mx-auto px-4 py-8 max-w-4xl">
+    <header class="mb-8 text-center">
+      {data.coverImage && (
+        <img 
+          src={data.coverImage} 
+          alt={data.title} 
+          class="w-full h-96 object-cover rounded-lg mb-6"
+        />
+      )}
+      <h1 class="text-4xl font-bold mb-4">{data.title}</h1>
+      <p class="text-lg text-muted-foreground mb-4">{data.excerpt}</p>
+      <div class="flex items-center justify-center gap-4 text-sm text-muted-foreground">
+        {data.author && <span>By {data.author.name}</span>}
+        {data.date && <span>{data.date}</span>}
+        {data.readTime && <span>{data.readTime}</span>}
+        {data.category && (
+          <span class="px-3 py-1 bg-primary/10 text-primary rounded-full">
+            {data.category}
+          </span>
+        )}
+      </div>
+    </header>
+    
+    <div class="prose prose-lg dark:prose-invert mx-auto">
+      <Content />
+    </div>
+  </article>
+  
+  <C736a client:load transition:persist="footer" />
+</Layout>

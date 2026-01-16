@@ -1,0 +1,79 @@
+---
+import Layout from '../layouts/Layout.astro';
+import De055 from '../components/views/De055.tsx';
+import Zad0dde from '../components/views/Zad0dde.tsx';
+import A044dea from '../components/views/A044dea.tsx';
+import C05b829 from '../components/views/C05b829.tsx';
+import C736a from '../components/views/C736a.tsx';
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://sellyourstufftoday.bid/#website",
+      "url": "https://sellyourstufftoday.bid",
+      "name": "business site",
+      "description": "A site that deals with information about businesses",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://sellyourstufftoday.bid/#organization",
+      "name": "business site",
+      "url": "https://sellyourstufftoday.bid",
+      "description": "A site that deals with information about businesses"
+    },
+    {
+      "@type": "ContactPage",
+      "@id": "https://sellyourstufftoday.bid/contact#webpage",
+      "url": "https://sellyourstufftoday.bid/contact",
+      "name": "Contact Business Site | Get in Touch",
+      "description": "Connect with Business Site for all your business information inquiries. Reach us via email, phone, or online form. We're ready to assist with expert advice a...",
+      "isPartOf": {
+        "@id": "https://sellyourstufftoday.bid/#website"
+      },
+      "about": {
+        "@id": "https://sellyourstufftoday.bid/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sellyourstufftoday.bid/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "https://sellyourstufftoday.bid/contact"
+        }
+      ]
+    }
+  ]
+};
+
+---
+
+<Layout
+  
+  title="Contact Business Site | Get in Touch"
+  description="Connect with Business Site for all your business information inquiries. Reach us via email, phone, or online form. We\'re ready to assist with expert advice a..."
+  keywords={["contact business site", "business inquiries", "customer support", "business information help", "reach business experts"]}
+  ogTitle="Get in Touch with Business Site"
+  ogDescription="Have questions about business information? Contact Business Site today for personalized support, inquiries, and expert guidance on your business journey."
+  ogImage="https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/a2e063c5-11c0-4a06-5627-67da0f9b1600/public"
+  canonical="https://sellyourstufftoday.bid/contact"
+  schema={schemaData}
+>
+  <De055 client:load currentPath="/contact" activeLinkStyle="background" transition:persist="nav" />
+  <Zad0dde client:load />
+  <A044dea client:load />
+  <C05b829 client:load />
+  <C736a client:load transition:persist="footer" />
+</Layout>

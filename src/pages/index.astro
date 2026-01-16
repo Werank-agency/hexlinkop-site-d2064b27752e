@@ -1,0 +1,64 @@
+---
+import Layout from '../layouts/Layout.astro';
+import De055 from '../components/views/De055.tsx';
+import Ba7cfd5 from '../components/views/Ba7cfd5.tsx';
+import C23917 from '../components/views/C23917.tsx';
+import E7478a from '../components/views/E7478a.tsx';
+import Ef89f4 from '../components/views/Ef89f4.tsx';
+import C736a from '../components/views/C736a.tsx';
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://sellyourstufftoday.bid/#website",
+      "url": "https://sellyourstufftoday.bid",
+      "name": "business site",
+      "description": "A site that deals with information about businesses",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://sellyourstufftoday.bid/#organization",
+      "name": "business site",
+      "url": "https://sellyourstufftoday.bid",
+      "description": "A site that deals with information about businesses"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://sellyourstufftoday.bid#webpage",
+      "url": "https://sellyourstufftoday.bid",
+      "name": "Business Information Hub | Business Site",
+      "description": "Unlock valuable business insights on Business Site, your trusted source for comprehensive information, tips, strategies, and resources to boost your business...",
+      "isPartOf": {
+        "@id": "https://sellyourstufftoday.bid/#website"
+      },
+      "about": {
+        "@id": "https://sellyourstufftoday.bid/#organization"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+};
+
+---
+
+<Layout
+  
+  title="Business Information Hub | Business Site"
+  description="Unlock valuable business insights on Business Site, your trusted source for comprehensive information, tips, strategies, and resources to boost your business..."
+  keywords={["business information", "business tips", "business strategies", "entrepreneur resources", "business growth"]}
+  ogTitle="Business Insights & Tips | Business Site"
+  ogDescription="Dive into expert business information and strategies on Business Site. Discover tips to grow your business and stay ahead in the industry."
+  ogImage="https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/f783fa30-c9d0-4fe9-34e4-2ca56133a800/public"
+  canonical="https://sellyourstufftoday.bid/"
+  schema={schemaData}
+>
+  <De055 client:load currentPath="/" activeLinkStyle="background" transition:persist="nav" />
+  <Ba7cfd5 client:load />
+  <C23917 client:load />
+  <E7478a client:load />
+  <Ef89f4 client:load />
+  <C736a client:load transition:persist="footer" />
+</Layout>

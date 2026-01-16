@@ -1,0 +1,99 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import De055 from '../components/views/De055.tsx';
+import Eda9f from '../components/views/Eda9f.tsx';
+import Kb2633 from '../components/views/Kb2633.tsx';
+import Cb133 from '../components/views/Cb133.tsx';
+import B557dba from '../components/views/B557dba.tsx';
+import C736a from '../components/views/C736a.tsx';
+
+// Query all articles from content collection
+const allArticles = await getCollection('articles');
+
+// Sort by date (newest first) and format for display
+const articles = allArticles
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .map(article => ({
+    slug: `/content/${article.slug}`,
+    title: article.data.title,
+    excerpt: article.data.excerpt,
+    coverImage: article.data.coverImage,
+    author: article.data.author,
+    date: article.data.date,
+    category: article.data.category,
+    readTime: article.data.readTime,
+  }));
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://sellyourstufftoday.bid/#website",
+      "url": "https://sellyourstufftoday.bid",
+      "name": "business site",
+      "description": "A site that deals with information about businesses",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://sellyourstufftoday.bid/#organization",
+      "name": "business site",
+      "url": "https://sellyourstufftoday.bid",
+      "description": "A site that deals with information about businesses"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://sellyourstufftoday.bid/content#webpage",
+      "url": "https://sellyourstufftoday.bid/content",
+      "name": "Business Content Blog | Business Site",
+      "description": "Explore our Business Content blog on Business Site for the latest articles, insights, and tips on business topics. Stay updated with expert advice and indust...",
+      "isPartOf": {
+        "@id": "https://sellyourstufftoday.bid/#website"
+      },
+      "about": {
+        "@id": "https://sellyourstufftoday.bid/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sellyourstufftoday.bid/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Content",
+          "item": "https://sellyourstufftoday.bid/content"
+        }
+      ]
+    }
+  ]
+};
+
+---
+
+<Layout
+  
+  title="Business Content Blog | Business Site"
+  description="Explore our Business Content blog on Business Site for the latest articles, insights, and tips on business topics. Stay updated with expert advice and indust..."
+  keywords={["business blog", "business articles", "industry insights", "business tips", "entrepreneur advice"]}
+  ogTitle="Business Blog & Articles | Business Site"
+  ogDescription="Read engaging business content on Business Site\'s blog. Get tips, strategies, and insights to enhance your business knowledge and success."
+  ogImage="https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/56b205d9-d778-4539-9069-4e6278862100/public"
+  canonical="https://sellyourstufftoday.bid/content"
+  schema={schemaData}
+>
+  <De055 client:load currentPath="/content" activeLinkStyle="background" transition:persist="nav" />
+  <Eda9f client:load articles={articles} />
+  <Kb2633 client:load articles={articles} />
+  <Cb133 client:load />
+  <B557dba client:load />
+  <C736a client:load transition:persist="footer" />
+</Layout>

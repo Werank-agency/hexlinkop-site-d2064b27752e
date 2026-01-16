@@ -1,0 +1,335 @@
+{
+  "generated_at": "2026-01-16T06:24:01.403950",
+  "site_id": "site-d2064b27752e",
+  "cloudflare_enabled": true,
+  "images": {
+    "pages": [
+      {
+        "id": "5d1e4c59-c755-405a-9dfe-480baf104100",
+        "filename": "businesswoman-business-idea.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/5d1e4c59-c755-405a-9dfe-480baf104100/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:22:55.685863",
+        "metadata": {
+          "alt": "Businesswoman Brainstorming at Office Desk - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:hero-bg",
+          "block": "Hero01",
+          "type": "hero-bg",
+          "folder": "pages",
+          "filename": "businesswoman-business-idea.jpg"
+        }
+      },
+      {
+        "id": "d56e7dfa-dcfd-4933-18cb-053d083cb200",
+        "filename": "market-analysis.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/d56e7dfa-dcfd-4933-18cb-053d083cb200/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:22:53.507163",
+        "metadata": {
+          "alt": "Market Analysis - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:bento-0",
+          "block": "BentoGrid01",
+          "type": "bento-0",
+          "folder": "pages",
+          "filename": "market-analysis.jpg"
+        }
+      },
+      {
+        "id": "63c0b10b-2ac5-436e-10d0-7c9311e88500",
+        "filename": "financial-reports.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/63c0b10b-2ac5-436e-10d0-7c9311e88500/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:22:54.278075",
+        "metadata": {
+          "alt": "Financial Reports - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:bento-1",
+          "block": "BentoGrid01",
+          "type": "bento-1",
+          "folder": "pages",
+          "filename": "financial-reports.jpg"
+        }
+      },
+      {
+        "id": "08863c97-cd2d-41be-64d1-6edc77d59800",
+        "filename": "industry-trends.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/08863c97-cd2d-41be-64d1-6edc77d59800/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:22:55.677281",
+        "metadata": {
+          "alt": "Industry Trends - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:bento-2",
+          "block": "BentoGrid01",
+          "type": "bento-2",
+          "folder": "pages",
+          "filename": "industry-trends.jpg"
+        }
+      },
+      {
+        "id": "dcb2a3c5-4b13-4cc2-56f4-bdbc410dc700",
+        "filename": "company-profiles.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/dcb2a3c5-4b13-4cc2-56f4-bdbc410dc700/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:22:53.443470",
+        "metadata": {
+          "alt": "Company Profiles - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:bento-3",
+          "block": "BentoGrid01",
+          "type": "bento-3",
+          "folder": "pages",
+          "filename": "company-profiles.jpg"
+        }
+      },
+      {
+        "id": "1a0730aa-1fec-4a76-311c-98be09182400",
+        "filename": "business-district-skyline.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/1a0730aa-1fec-4a76-311c-98be09182400/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:03.784428",
+        "metadata": {
+          "alt": "Aerial View of Dynamic Business District - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:header-bg",
+          "block": "Header03",
+          "type": "header-bg",
+          "folder": "pages",
+          "filename": "business-district-skyline.jpg"
+        }
+      },
+      {
+        "id": "645000e4-7307-4ed6-104d-b82653c56100",
+        "filename": "fundamentals-of-entrepreneurship-building-a.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/645000e4-7307-4ed6-104d-b82653c56100/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:10.233700",
+        "metadata": {
+          "alt": "Fundamentals of Entrepreneurship: Building a Successful Business from Scratch - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:blog-0",
+          "block": "BlogGrid01",
+          "type": "blog-0",
+          "folder": "pages",
+          "filename": "fundamentals-of-entrepreneurship-building-a.jpg"
+        }
+      },
+      {
+        "id": "ae961cbe-9d4b-494a-9091-2ba2d5b43400",
+        "filename": "fundamentals-of-entrepreneurship-building-a.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/ae961cbe-9d4b-494a-9091-2ba2d5b43400/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:10.474638",
+        "metadata": {
+          "alt": "Fundamentals of Entrepreneurship: Building a Successful Business from Scratch - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:avatar-0",
+          "block": "BlogGrid01",
+          "type": "avatar-0",
+          "folder": "pages",
+          "filename": "fundamentals-of-entrepreneurship-building-a.jpg"
+        }
+      },
+      {
+        "id": "e491ae46-118b-4c9a-1eea-25ad96a5e600",
+        "filename": "digital-marketing-strategies-for-modern-businesses.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/e491ae46-118b-4c9a-1eea-25ad96a5e600/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:10.625753",
+        "metadata": {
+          "alt": "Digital Marketing Strategies for Modern Businesses - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:blog-1",
+          "block": "BlogGrid01",
+          "type": "blog-1",
+          "folder": "pages",
+          "filename": "digital-marketing-strategies-for-modern-businesses.jpg"
+        }
+      },
+      {
+        "id": "a2e063c5-11c0-4a06-5627-67da0f9b1600",
+        "filename": "digital-marketing-strategies-for-modern-businesses.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/a2e063c5-11c0-4a06-5627-67da0f9b1600/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:11.269201",
+        "metadata": {
+          "alt": "Digital Marketing Strategies for Modern Businesses - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:avatar-1",
+          "block": "BlogGrid01",
+          "type": "avatar-1",
+          "folder": "pages",
+          "filename": "digital-marketing-strategies-for-modern-businesses.jpg"
+        }
+      },
+      {
+        "id": "f783fa30-c9d0-4fe9-34e4-2ca56133a800",
+        "filename": "financial-planning-essentials-for-small-business.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/f783fa30-c9d0-4fe9-34e4-2ca56133a800/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:10.532683",
+        "metadata": {
+          "alt": "Financial Planning Essentials for Small Business Owners - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:blog-2",
+          "block": "BlogGrid01",
+          "type": "blog-2",
+          "folder": "pages",
+          "filename": "financial-planning-essentials-for-small-business.jpg"
+        }
+      },
+      {
+        "id": "67d0d6d9-706f-4a0f-af7e-6c8303245200",
+        "filename": "financial-planning-essentials-for-small-business.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/67d0d6d9-706f-4a0f-af7e-6c8303245200/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:11.004041",
+        "metadata": {
+          "alt": "Financial Planning Essentials for Small Business Owners - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:avatar-2",
+          "block": "BlogGrid01",
+          "type": "avatar-2",
+          "folder": "pages",
+          "filename": "financial-planning-essentials-for-small-business.jpg"
+        }
+      },
+      {
+        "id": "99c83fd4-dd4b-4aae-c4c2-2b89fd599800",
+        "filename": "developing-leadership-skills-in-business.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/99c83fd4-dd4b-4aae-c4c2-2b89fd599800/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:10.798237",
+        "metadata": {
+          "alt": "Developing Leadership Skills in Business Environments - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:blog-3",
+          "block": "BlogGrid01",
+          "type": "blog-3",
+          "folder": "pages",
+          "filename": "developing-leadership-skills-in-business.jpg"
+        }
+      },
+      {
+        "id": "0aefc47a-3a56-4af4-4b44-e63506688800",
+        "filename": "developing-leadership-skills-in-business.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/0aefc47a-3a56-4af4-4b44-e63506688800/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:09.165152",
+        "metadata": {
+          "alt": "Developing Leadership Skills in Business Environments - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:avatar-3",
+          "block": "BlogGrid01",
+          "type": "avatar-3",
+          "folder": "pages",
+          "filename": "developing-leadership-skills-in-business.jpg"
+        }
+      },
+      {
+        "id": "56b205d9-d778-4539-9069-4e6278862100",
+        "filename": "implementing-sustainable-business-practices.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/56b205d9-d778-4539-9069-4e6278862100/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:10.313279",
+        "metadata": {
+          "alt": "Implementing Sustainable Business Practices - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:blog-4",
+          "block": "BlogGrid01",
+          "type": "blog-4",
+          "folder": "pages",
+          "filename": "implementing-sustainable-business-practices.jpg"
+        }
+      },
+      {
+        "id": "2759a46f-ceef-427a-7e75-802abfeae300",
+        "filename": "implementing-sustainable-business-practices.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/2759a46f-ceef-427a-7e75-802abfeae300/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:09.162317",
+        "metadata": {
+          "alt": "Implementing Sustainable Business Practices - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:avatar-4",
+          "block": "BlogGrid01",
+          "type": "avatar-4",
+          "folder": "pages",
+          "filename": "implementing-sustainable-business-practices.jpg"
+        }
+      },
+      {
+        "id": "a7e712fd-1f8e-4824-eae9-9aeecb6f1b00",
+        "filename": "harnessing-technology-and-innovation-for-business.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/a7e712fd-1f8e-4824-eae9-9aeecb6f1b00/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:09.797314",
+        "metadata": {
+          "alt": "Harnessing Technology and Innovation for Business Growth - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:blog-5",
+          "block": "BlogGrid01",
+          "type": "blog-5",
+          "folder": "pages",
+          "filename": "harnessing-technology-and-innovation-for-business.jpg"
+        }
+      },
+      {
+        "id": "2afcfb85-c100-467d-255d-118ae99fc200",
+        "filename": "harnessing-technology-and-innovation-for-business.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/2afcfb85-c100-467d-255d-118ae99fc200/public",
+        "category": "pages",
+        "uploaded_at": "2026-01-16T06:23:10.448452",
+        "metadata": {
+          "alt": "Harnessing Technology and Innovation for Business Growth - business site",
+          "placeholder": "IMAGE_PLACEHOLDER:avatar-5",
+          "block": "BlogGrid01",
+          "type": "avatar-5",
+          "folder": "pages",
+          "filename": "harnessing-technology-and-innovation-for-business.jpg"
+        }
+      }
+    ],
+    "blog": [
+      {
+        "id": "afa4e82b-9167-4df0-ddde-43b1575f5700",
+        "filename": "author-avatar.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/afa4e82b-9167-4df0-ddde-43b1575f5700/public",
+        "category": "blog",
+        "uploaded_at": "2026-01-16T06:23:17.053623",
+        "metadata": {
+          "type": "author",
+          "site": "business site",
+          "folder": "blog",
+          "filename": "author-avatar.jpg"
+        }
+      },
+      {
+        "id": "904df87f-3725-4806-fea9-97ebe81a0700",
+        "filename": "10-proven-strategies-to-scale-your-startup-in-a-competitive-.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/904df87f-3725-4806-fea9-97ebe81a0700/public",
+        "category": "blog",
+        "uploaded_at": "2026-01-16T06:24:00.428689",
+        "metadata": {
+          "type": "article_cover",
+          "article": "10-proven-strategies-to-scale-your-startup-in-a-competitive-",
+          "title": "10 Proven Strategies to Scale Your Startup in a Competitive Market",
+          "folder": "blog",
+          "filename": "10-proven-strategies-to-scale-your-startup-in-a-competitive-.jpg"
+        }
+      },
+      {
+        "id": "b91ebef5-dba0-4900-bacb-47c6c37e3600",
+        "filename": "top-strategies-for-boosting-your-small-business-revenue.jpg",
+        "url": "https://imagedelivery.net/W0Tyu0H3jD0178dqoxnJSA/b91ebef5-dba0-4900-bacb-47c6c37e3600/public",
+        "category": "blog",
+        "uploaded_at": "2026-01-16T06:23:52.824877",
+        "metadata": {
+          "type": "article_cover",
+          "article": "top-strategies-for-boosting-your-small-business-revenue",
+          "title": "Top Strategies for Boosting Your Small Business Revenue",
+          "folder": "blog",
+          "filename": "top-strategies-for-boosting-your-small-business-revenue.jpg"
+        }
+      }
+    ],
+    "logo": [],
+    "protected": [
+      "favicon.svg",
+      "favicon.ico",
+      "favicon-16x16.png",
+      "favicon-32x32.png",
+      "android-chrome-192x192.png",
+      "android-chrome-512x512.png",
+      "apple-touch-icon.png",
+      "icon-192x192.png",
+      "icon-512x512.png",
+      "site.webmanifest"
+    ]
+  }
+}
